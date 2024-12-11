@@ -1,0 +1,10 @@
+Instead of using the clearfix hack, we use flexbox to achieve the same result.  Flexbox provides a more robust and reliable way to manage layout, especially when dealing with floating elements. Below is the corrected code:
+
+/* bugSolution.css */
+.container {
+display: flex;
+}
+.float-left {
+float: left;
+}
+/*No clearfix hack needed*/
